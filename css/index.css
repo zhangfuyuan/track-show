@@ -1,0 +1,159 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+  padding-right: 70px;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 1200px;
+}
+
+.filter,
+.row,
+.content {
+  width: 100%;
+}
+
+.filter {
+  height: 75px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  border-bottom: 1px solid #EBEEF5;
+}
+
+#beginDate,
+#endDate {
+  width: 105px;
+  background-color: white;
+}
+
+.end-date {
+  margin-left: 20px;
+}
+
+.row {
+  border-bottom: 1px solid #EBEEF5;
+}
+
+.col {
+  padding: 20px;
+  width: 50%;
+}
+
+.row .col:first-child {
+  border-right: 1px solid #EBEEF5;
+}
+
+.title {
+  width: 100%;
+  position: relative;
+}
+
+.refresh-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+}
+
+.content {
+  padding-top: 20px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.content table {
+  margin: 0;
+}
+
+.box-head {
+  max-height: 40px;
+}
+
+.function-box-body,
+.widget-box-body {
+  height: 440px;
+  overflow: hidden;
+}
+
+#functionBoxThead tr th:nth-child(1),
+#functionBoxTbody tr td:nth-child(1) {
+  width: 50%;
+}
+
+#functionBoxThead tr th:nth-child(2),
+#functionBoxTbody tr td:nth-child(2) {
+  width: 30%;
+}
+
+#functionBoxThead tr th:nth-child(3),
+#functionBoxTbody tr td:nth-child(3) {
+  width: 20%;
+}
+
+#widgetBoxThead tr th:nth-child(1),
+#widgetBoxTbody tr td:nth-child(1) {
+  width: 40%;
+}
+
+#widgetBoxThead tr th:nth-child(2),
+#widgetBoxTbody tr td:nth-child(2) {
+  width: 30%;
+}
+
+#widgetBoxThead tr th:nth-child(3),
+#widgetBoxTbody tr td:nth-child(3) {
+  width: 30%;
+}
+
+.new-device {
+  font-size: 18px;
+  text-align: center;
+}
+
+#newDeviceBeginDate,
+#newDeviceEndDate,
+#newDeviceNum {
+  font-weight: bold;
+}
+
+.office-device-box-body {
+  height: 120px;
+  overflow: hidden;
+}
+
+#officeDeviceBoxThead tr th:nth-child(1),
+#officeDeviceBoxTbody tr td:nth-child(1) {
+  width: 20%;
+}
+
+#officeDeviceBoxThead tr th:nth-child(2),
+#officeDeviceBoxTbody tr td:nth-child(2) {
+  width: 40%;
+}
+
+#officeDeviceBoxThead tr th:nth-child(3),
+#officeDeviceBoxTbody tr td:nth-child(3) {
+  width: 40%;
+}
+
+#officeDeviceBoxTbody tr {
+  cursor: pointer;
+}
+
+#officeDeviceBoxTbody tr.active {
+  background-color: #ECF5FF;
+}
+
+#officeDeviceChart {
+  height: 320px;
+}

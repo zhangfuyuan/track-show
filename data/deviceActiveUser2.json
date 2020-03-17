@@ -1,0 +1,7 @@
+{
+  "errcode": 0,
+  "data": {
+    "terminalGrowth": [10, 100],
+    "terminalTotal": [100, 1000]
+  }
+}
